@@ -4,7 +4,7 @@ import "./Skills.css";
 function Skills() {
   return (
     <div>
-      <Heading textAlign="center" mt={50}>
+      <Heading textAlign="center" mt={65} id="heading">
         Skills
       </Heading>
       <Flex

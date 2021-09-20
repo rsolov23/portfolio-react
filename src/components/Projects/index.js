@@ -8,6 +8,7 @@ import budget from "../images/budget.png";
 import social from "../images/socialapi.png";
 import readme from "../images/readme.png";
 import work from "../images/work.png";
+import * as FaIcons from "react-icons/fa";
 function Projects() {
   {
     return (
@@ -24,15 +25,22 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Helping Hands</p>
-                    <span>React</span>
                   </div>
                 </div>
-                <div class="back">
-                  <div class="inner">
+                <div className="back">
+                  <div className="inner">
                     <p>
                       <a href="https://github.com/r0yster/helping-hands">
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <i className="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
                   </div>
@@ -49,7 +57,6 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Jot It</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
@@ -58,6 +65,14 @@ function Projects() {
                       <a href="https://github.com/rsolov23/Jot-It">
                         {" "}
                         <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
                   </div>
@@ -74,7 +89,6 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Gaminator</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
@@ -83,6 +97,14 @@ function Projects() {
                       <a href="https://github.com/rsolov23/gaminator">
                         {" "}
                         <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
                   </div>
@@ -99,7 +121,6 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Weather Dashboard</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
@@ -108,6 +129,14 @@ function Projects() {
                       <a href="https://github.com/rsolov23/budget-tracker">
                         {" "}
                         <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
                   </div>
@@ -124,14 +153,23 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Budget Tracker</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Alias cum repellat velit quae suscipit c.
+                      <a href="https://github.com/rsolov23/budget-tracker">
+                        {" "}
+                        <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -147,14 +185,23 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Social Network API</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Alias cum repellat velit quae suscipit c.
+                      <a href="https://github.com/rsolov23/budget-tracker">
+                        {" "}
+                        <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -170,14 +217,23 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>README Generator</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Alias cum repellat velit quae suscipit c.
+                      <a href="https://github.com/rsolov23/budget-tracker">
+                        {" "}
+                        <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -193,14 +249,23 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Workday Scheduler</p>
-                    <span>Lorem ipsum</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Alias cum repellat velit quae suscipit c.
+                      <a href="https://github.com/rsolov23/budget-tracker">
+                        {" "}
+                        <i class="devicon-github-original"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://helping-hands-deux.herokuapp.com/"
+                        className="fa"
+                      >
+                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                      </a>
                     </p>
                   </div>
                 </div>

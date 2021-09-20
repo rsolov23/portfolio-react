@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 html,
 body {
+  font-family: "Bree Serif", serif;
   height: 100%;
 }
-
+a {
+  font-size: 25px;
+}
 body {
   color: #333;
 }

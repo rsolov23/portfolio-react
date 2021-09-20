@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Shadows+Into+Light&display=swap");
 i {
   font-size: 4rem;
   padding: 1rem;
   background-color: #000;
   color: #fff;
   border-radius: 50%;
+}
+
+#heading {
+  font-family: "Bree Serif", serif;
 }

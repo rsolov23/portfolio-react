@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 div#polaroid {
   margin: 100px 0 0 150px;
   border: 25px solid #e3e4d3;
@@ -12,14 +13,33 @@ div#polaroid {
   max-width: 500px;
   padding-top: 30%;
   background-image: url("../About/profilepic.jpg");
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 250px 225px;
   filter: sepia(50%);
 }
-
+#font {
+  font-family: "Shadows Into Light", cursive;
+}
+.blue {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 115px 0 0 20px;
+}
 div#polaroid:hover {
   box-shadow: 0 0 100px 0 rgba(29, 25, 4, 0.8) inset,
     0 0 3px 6px rgba(0, 0, 0, 0.07);
   filter: sepia(20%);
+}
+
+.float-container {
+  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+
+  padding: 20px;
 }
 @media all and (max-width: 700px) {
   div#polaroid {

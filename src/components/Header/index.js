@@ -98,7 +98,7 @@ function Header() {
           <i className="fab fa-linkedin fa-3x"></i>
         </a>
         <a
-          href="mailto:rsolov23@yahoo.com"
+          href="mailto:rachelswebdev@gmail.com"
           style={{ padding: "15px" }}
           target="blank"
         >

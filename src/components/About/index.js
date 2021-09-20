@@ -1,41 +1,30 @@
 import React from "react";
-import { Stack, Flex, Box, Text } from "@chakra-ui/react";
 import "./About.css";
+
 function About() {
   return (
     <>
-      <div id="digital"></div>
-
-      <Flex
-        flexDirection="column"
-        width="100wh"
-        height="100vh"
-        justifyContent="center"
-        alignItems="center"
-        m={5}
-      >
-        <Stack
-          boxShadow="2xl"
-          rounded="md"
-          spacing={4}
-          flexDir="column"
-          justifyContent="center"
-          alignItems="center"
-          bgColor="#40a9e8"
-        >
-          <Box minW={{ base: "90%", md: "468px" }} p="10">
-            <Text textAlign="center">
-              I am a Full Stack Web Developer currently enjoying the rigorous
-              fast-paced Coding Boot Camp at the University of Texas. I am a
-              motivated, creative, and dependable individual. I thrive when
-              handling multiple tasks on a daily basis competently and I work
-              well under pressure. In my free time I enjoy spending time in the
-              outdoors with my two dogs, attending concerts, and spending time
-              with my grandfather.
-            </Text>
-          </Box>
-        </Stack>
-      </Flex>
+      <div class="sub-row-wrapper">
+        <div class="sub-row-left-col">
+          <div id="polaroid"></div>
+        </div>
+        <div class="sub-row-right-col">
+          <div class="post-content">
+            <h1>About Me</h1>
+            <p>
+              Dependable and dynamic Full Stack Web Developer with over ten
+              years of leadership experience. In the University of Texas Coding
+              Bootcamp I worked with a team to develop a MERN Stack application
+              to help connect people experiencing homelessness with community
+              resources. Proficient in React, CSS, HTML, Javascript, Express,
+              MongoDb and MySQL. Seeking a position to utilize my deep-rooted
+              passion for learning as a motivated self-starter who is detail
+              oriented, excels in critical thinking and has a knack for problem
+              solving.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

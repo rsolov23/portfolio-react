@@ -68,10 +68,7 @@ function Projects() {
                       </a>
                     </p>
                     <p>
-                      <a
-                        href="https://helping-hands-deux.herokuapp.com/"
-                        className="fa"
-                      >
+                      <a href="https://jotitgood.herokuapp.com/" className="fa">
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
@@ -101,7 +98,7 @@ function Projects() {
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="https://lexcraw4d.github.io/Gaminator/"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
@@ -126,14 +123,14 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/budget-tracker">
+                      <a href="https://github.com/rsolov23/Rachel-s-Weather-Dashboard">
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="https://rsolov23.github.io/Rachel-s-Weather-Dashboard/"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
@@ -165,7 +162,7 @@ function Projects() {
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="https://vast-tundra-00537.herokuapp.com/"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
@@ -190,14 +187,14 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/budget-tracker">
+                      <a href="https://github.com/rsolov23/Rachel-s-Social-Network-API">
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="ttps://drive.google.com/file/d/1-VtIBn1Yk43UaccVVerqYpSW9f2crDR1/view"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
@@ -222,14 +219,14 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/budget-tracker">
+                      <a href="https://github.com/rsolov23/Rachel-s-Professional-README-Generator">
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="https://drive.google.com/file/d/19fMHNmmm4aqq4fI0AQmLApEhf7OuMRjx/view"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
@@ -254,14 +251,14 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/budget-tracker">
+                      <a href="https://github.com/rsolov23/Rachel-s-Workday-Scheduler">
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
                     </p>
                     <p>
                       <a
-                        href="https://helping-hands-deux.herokuapp.com/"
+                        href="https://rsolov23.github.io/Rachel-s-Workday-Scheduler/"
                         className="fa"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />

@@ -30,7 +30,10 @@ function Projects() {
                 <div className="back">
                   <div className="inner">
                     <p>
-                      <a href="https://github.com/r0yster/helping-hands">
+                      <a
+                        href="https://github.com/r0yster/helping-hands"
+                        target="blank"
+                      >
                         {" "}
                         <i className="devicon-github-original"></i>
                       </a>
@@ -39,6 +42,7 @@ function Projects() {
                       <a
                         href="https://helping-hands-deux.herokuapp.com/"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -62,13 +66,20 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/Jot-It">
+                      <a
+                        href="https://github.com/rsolov23/Jot-It"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
                     </p>
                     <p>
-                      <a href="https://jotitgood.herokuapp.com/" className="fa">
+                      <a
+                        href="https://jotitgood.herokuapp.com/"
+                        className="fa"
+                        target="blank"
+                      >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
                     </p>
@@ -91,7 +102,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/gaminator">
+                      <a
+                        href="https://github.com/rsolov23/gaminator"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -100,6 +114,7 @@ function Projects() {
                       <a
                         href="https://lexcraw4d.github.io/Gaminator/"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -123,7 +138,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/Rachel-s-Weather-Dashboard">
+                      <a
+                        href="https://github.com/rsolov23/Rachel-s-Weather-Dashboard"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -132,6 +150,7 @@ function Projects() {
                       <a
                         href="https://rsolov23.github.io/Rachel-s-Weather-Dashboard/"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -155,7 +174,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/budget-tracker">
+                      <a
+                        href="https://github.com/rsolov23/budget-tracker"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -164,6 +186,7 @@ function Projects() {
                       <a
                         href="https://vast-tundra-00537.herokuapp.com/"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -187,7 +210,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/Rachel-s-Social-Network-API">
+                      <a
+                        href="https://github.com/rsolov23/Rachel-s-Social-Network-API"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -196,6 +222,7 @@ function Projects() {
                       <a
                         href="ttps://drive.google.com/file/d/1-VtIBn1Yk43UaccVVerqYpSW9f2crDR1/view"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -219,7 +246,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/Rachel-s-Professional-README-Generator">
+                      <a
+                        href="https://github.com/rsolov23/Rachel-s-Professional-README-Generator"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -228,6 +258,7 @@ function Projects() {
                       <a
                         href="https://drive.google.com/file/d/19fMHNmmm4aqq4fI0AQmLApEhf7OuMRjx/view"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>
@@ -251,7 +282,10 @@ function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p>
-                      <a href="https://github.com/rsolov23/Rachel-s-Workday-Scheduler">
+                      <a
+                        href="https://github.com/rsolov23/Rachel-s-Workday-Scheduler"
+                        target="blank"
+                      >
                         {" "}
                         <i class="devicon-github-original"></i>
                       </a>
@@ -260,6 +294,7 @@ function Projects() {
                       <a
                         href="https://rsolov23.github.io/Rachel-s-Workday-Scheduler/"
                         className="fa"
+                        target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt size={90} />
                       </a>

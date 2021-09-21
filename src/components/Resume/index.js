@@ -19,7 +19,16 @@ function Resume() {
           problem solving.
         </Text>
         <Flex justifyContent="center" alignItems="center">
-          <button className="name noselect">Download</button>
+          <a
+            align="center"
+            id="download"
+            href={require(`./resume.pdf`).default}
+            download="resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="name noselect">Download</button>
+          </a>
         </Flex>
       </div>
     </>

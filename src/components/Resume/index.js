@@ -6,8 +6,12 @@ function Resume() {
   return (
     <>
       <div className="papers">
-        <h1>Resume</h1>
-        <Text justifyContent="center" alignItems="center">
+        <h1 style={{ color: "#000" }}>Resume</h1>
+        <Text
+          justifyContent="center"
+          alignItems="center"
+          color="blackAlpha.900"
+        >
           Dependable and dynamic Full Stack Web Developer with over ten years of
           leadership experience. In the University of Texas Coding Bootcamp I
           worked with a team to develop a MERN Stack application to help connect
@@ -27,7 +31,9 @@ function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="name noselect">Download</button>
+            <button className="name noselect" style={{ color: "#000" }}>
+              Download
+            </button>
           </a>
         </Flex>
       </div>

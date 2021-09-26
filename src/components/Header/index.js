@@ -1,4 +1,6 @@
 import React from "react";
+import { Container } from "@chakra-ui/layout";
+import About from "../About";
 import "./Header.css";
 
 function Header() {
@@ -105,16 +107,21 @@ function Header() {
           <i class="fas fa-envelope-square fa-3x"></i>
         </a>
 
-        {/* <Container align="center">
-        <div id="down-arrow">
-          <span>
-            <a href="#about">
-              <i className="fas fa-sort-down fa-3x" aria-hidden="true"></i>
-            </a>
-          </span>
-        </div>
-      </Container> */}
+        <Container align="center">
+          <div id="down-arrow">
+            <span>
+              <a href="#about">
+                <i
+                  className="fas fa-sort-down fa-3x"
+                  aria-hidden="true"
+                  style={{ backgroundColor: "#fff", color: "#000" }}
+                ></i>
+              </a>
+            </span>
+          </div>
+        </Container>
       </section>
+      <About />
     </>
   );
 }

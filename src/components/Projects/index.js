@@ -44,7 +44,10 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt
+                          size={90}
+                          color="#000"
+                        />
                       </a>
                     </p>
                   </div>

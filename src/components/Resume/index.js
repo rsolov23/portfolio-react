@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Text } from "@chakra-ui/layout";
 import "./Resume.css";
-
+import Footer from "../Footer";
 function Resume() {
   return (
     <>
@@ -11,6 +11,7 @@ function Resume() {
           justifyContent="center"
           alignItems="center"
           color="blackAlpha.900"
+          fontSize="md"
         >
           Dependable and dynamic Full Stack Web Developer with over ten years of
           leadership experience. In the University of Texas Coding Bootcamp I
@@ -37,6 +38,7 @@ function Resume() {
           </a>
         </Flex>
       </div>
+      <Footer />
     </>
   );
 }

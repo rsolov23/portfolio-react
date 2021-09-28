@@ -64,9 +64,9 @@ function Header() {
         <p
           classname="title"
           style={{
-            marginTop: "12rem",
-            fontSize: "5rem",
-            fontWeight: "bold",
+            marginTop: "7rem",
+            fontSize: "7rem",
+            fontWeight: "700px",
             textAlign: "center",
           }}
         >

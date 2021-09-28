@@ -91,7 +91,7 @@ nav label {
   right: 0;
   height: 70px;
   width: 70px;
-  background: #63e2c6;
+  background: #490fe9;
   cursor: pointer;
   z-index: 1;
 }
@@ -135,14 +135,14 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     margin: 0;
     top: -100vh;
     left: 0;
     height: 100vh;
     width: 100%;
-    background: #63e2c6;
+    background: rgb(132, 170, 241);
   }
 
   .menu li {

@@ -15,15 +15,7 @@ function App() {
     <Router>
       <ChakraProvider>
         <div>
-          {/* <div id="space">
-            <div class="stars"></div>
-            <div class="stars"></div>
-            <div class="stars"></div>
-            <div class="stars"></div>
-            <div class="stars"></div>
-            <div class="stars"></div>
-            <div class="stars"></div>
-          </div> */}
+     
           <Nav />
           <Route exact path="/" component={Header} />
           <div>

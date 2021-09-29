@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import background from "./illo127.jpg";
+
 import profilepic from "./profilepic.jpg";
 
 function About() {

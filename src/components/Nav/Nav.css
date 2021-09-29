@@ -23,7 +23,6 @@ h1 {
 }
 
 nav {
-  position: fixed;
   top: 0;
   padding: 20px;
   width: 100%;
@@ -33,7 +32,8 @@ nav h2 {
   display: inline;
 }
 
-.menu {
+.menu,
+#home {
   position: relative;
   margin-top: 6px;
   float: right;

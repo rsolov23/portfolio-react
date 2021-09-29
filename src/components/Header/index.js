@@ -114,7 +114,7 @@ function Header() {
                 <i
                   className="fas fa-sort-down fa-3x"
                   aria-hidden="true"
-                  style={{ backgroundColor: "#fff", color: "#000" }}
+                  style={{ backgroundColor: "#1a202c", color: "#fff" }}
                 ></i>
               </a>
             </span>

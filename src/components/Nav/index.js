@@ -1,19 +1,21 @@
 import React from "react";
 import "./Nav.css";
-import UseAnimations from "react-useanimations";
-import loading2 from "react-useanimations/lib/loading2";
+// import UseAnimations from "react-useanimations";
+// import loading2 from "react-useanimations/lib/loading2";
 function Nav() {
   return (
     <>
       <div>
         <nav>
-          <h2 class="brand">{/* <a href="/">LOGO</a> */}</h2>
+          <h2 class="brand">
+            <a href="/">LOGO</a>
+          </h2>
           <input type="checkbox" id="nav" />
-          <label for="nav">
+          {/* <label for="nav">
             <span></span>
             <span></span>
             <span></span>
-          </label>
+          </label> */}
           <ul class="menu">
             {/* <li>
               <a href="/about">About</a>
@@ -29,13 +31,13 @@ function Nav() {
               {" "}
               <a href="/resume">Resume</a>
             </li>
-            <li>
+            {/* <li>
               {" "}
               <a href="/" id="home">
                 {" "}
                 <UseAnimations animation={loading2} size={22} />
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

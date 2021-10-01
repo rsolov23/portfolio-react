@@ -59,12 +59,13 @@ function Header() {
   };
   return (
     <>
+     
       <a className="anchor" name="heading">
         {" "}
         <p
           classname="title"
           style={{
-            marginTop: "7rem",
+            marginTop: "5rem",
             fontSize: "7rem",
             fontWeight: "700px",
             textAlign: "center",

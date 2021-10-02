@@ -35,5 +35,5 @@ A React portfolio designed with 💙 to showcase my talent.💥
 
 ### _License_
 
-Copyright (c) 2021 Rachel Solov/
+Copyright (c) 2021 Rachel Solov</br>
  [MIT License](https://github.com/rsolov23/SEO/blob/master/LICENSE)

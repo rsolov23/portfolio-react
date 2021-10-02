@@ -59,7 +59,6 @@ function Header() {
   };
   return (
     <>
-     
       <a className="anchor" name="heading">
         {" "}
         <p
@@ -93,12 +92,13 @@ function Header() {
           {" "}
           <i className="fab fa-github-square fa-3x"></i>
         </a>
+
         <a
           href="https://www.linkedin.com/in/rachel-solov-80bb3a174"
           style={{ padding: "15px" }}
           target="blank"
         >
-          <i className="fab fa-linkedin fa-3x"></i>
+          <i className="fab fa-linkedin fa-3x" id="linkedin"></i>
         </a>
         <a
           href="mailto:rachelswebdev@gmail.com"

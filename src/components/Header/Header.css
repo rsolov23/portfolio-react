@@ -7,10 +7,23 @@
   font-weight: 500;
 }
 .animation_text h1 span {
-  color: #0d47a1;
+  color: #555855;
 }
 @media (max-width: 768px) {
   .animation_text h1 {
     font-size: 30px;
+  }
+}
+#linkedin:hover {
+  transform: scale(1.1);
+  animation-name: linkedin-icon;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes linkedin-icon {
+  100% {
+    background-color: #0077B5;
+    color: white;
   }
 }

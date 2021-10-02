@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import profilepic from "./profilepic.jpg";
+import profilepic from "./profilepic2.jpg";
 
 function About() {
   return (
@@ -39,7 +39,6 @@ function About() {
           </div>
         </div>
       </a>
- 
     </>
   );
 }

@@ -8,18 +8,22 @@ function Nav() {
       <div>
         <nav>
           <h2 class="brand">
-            <a href="/">LOGO</a>
+            <a href="/Header">
+              {/* <UseAnimations
+                animationKey="loading2"
+                size={56}
+                style={{ padding: 100 }}
+              /> */}
+              RS
+            </a>
           </h2>
           <input type="checkbox" id="nav" />
-          {/* <label for="nav">
+          <label for="nav">
             <span></span>
             <span></span>
             <span></span>
-          </label> */}
+          </label>
           <ul class="menu">
-            {/* <li>
-              <a href="/about">About</a>
-            </li> */}
             <li>
               <a href="/projects">Projects</a>
             </li>
@@ -31,13 +35,7 @@ function Nav() {
               {" "}
               <a href="/resume">Resume</a>
             </li>
-            {/* <li>
-              {" "}
-              <a href="/" id="home">
-                {" "}
-                <UseAnimations animation={loading2} size={22} />
-              </a>
-            </li> */}
+            <li> </li>
           </ul>
         </nav>
       </div>

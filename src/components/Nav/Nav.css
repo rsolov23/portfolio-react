@@ -32,8 +32,7 @@ nav h2 {
   display: inline;
 }
 
-.menu,
-#home {
+.menu {
   position: relative;
   margin-top: 6px;
   float: right;
@@ -75,7 +74,7 @@ p {
   padding-right: 10px;
   font-size: 80px;
   line-height: 0.9;
-  color: #63e2c6;
+  color: #5f605f;
 }
 
 input[type="checkbox"] {
@@ -91,7 +90,7 @@ nav label {
   right: 0;
   height: 70px;
   width: 70px;
-  background: #490fe9;
+  background: #bbc7bb;
   cursor: pointer;
   z-index: 1;
 }
@@ -142,7 +141,7 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
     left: 0;
     height: 100vh;
     width: 100%;
-    background: rgb(132, 170, 241);
+    background: #ccd5cc;
   }
 
   .menu li {

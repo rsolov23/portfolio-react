@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import profilepic from "./profilepic2.jpg";
+import profilepic from "../images/profilepic2.jpg";
 
 function About() {
   return (
@@ -30,11 +30,13 @@ function About() {
           </div>
           <div className="column">
             <p id="about">
-              I am a Full Stack Web Developer. Highly motivated, creative, and
-              dependable individual. I thrive when handling multiple tasks on a
-              daily basis and I work well under pressure. In my free time I
-              enjoy spending time in the outdoors with my two dogs, attending
-              concerts, and spending time with my grandfather.
+              <span className="animation-text-wipe animate-in anim-delay-2">
+                I am a Full Stack Web Developer. Highly motivated, creative, and
+                dependable individual. I thrive when handling multiple tasks on
+                a daily basis and I work well under pressure. In my free time I
+                enjoy spending time in the outdoors with my two dogs, attending
+                concerts, and spending time with my grandfather.
+              </span>
             </p>
           </div>
         </div>

@@ -8,44 +8,46 @@ function Skills() {
         Skills
       </Heading>
       <Flex
+        id="flex"
         mt={100}
         alignItems="center"
         flexDirection="column"
         justifyContent="center"
       >
         <Box>
-          <i class="devicon-bash-plain"></i>
-          <i class="devicon-bootstrap-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-express-original-wordmark"></i>
-          <i class="devicon-git-plain-wordmark"></i>
-          <i class="devicon-github-original-wordmark"></i>
-          <i class="devicon-google-plain-wordmark"></i>
-          <i class="devicon-graphql-plain-wordmark"></i>
-          <i class="devicon-handlebars-plain-wordmark"></i>
-          <i class="devicon-heroku-line-wordmark"></i>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
+          <i className="devicon-bash-plain wobble-horizontal"></i>
+          <i className="devicon-bootstrap-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-css3-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-express-original-wordmark wobble-horizontal"></i>
+          <i className="devicon-git-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-github-original-wordmark wobble-horizontal"></i>
+          <i className="devicon-google-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-graphql-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-handlebars-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-heroku-line-wordmark wobble-horizontal"></i>
+          <i className="devicon-html5-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-javascript-plain wobble-horizontal"></i>
         </Box>
       </Flex>
       <Flex
+        id="flex"
         mt={100}
         alignItems="center"
         flexDirection="column"
         justifyContent="center"
       >
         <Box>
-          <i class="devicon-jest-plain"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
-          <i class="devicon-markdown-original"></i>
-          <i class="devicon-mysql-plain-wordmark"></i>
-          <i class="devicon-mongodb-plain-wordmark"></i>
-          <i class="devicon-nodejs-plain-wordmark"></i>
-          <i class="devicon-npm-original-wordmark"></i>
-          <i class="devicon-react-original-wordmark"></i>
-          <i class="devicon-sass-original"></i>
-          <i class="devicon-webpack-plain-wordmark"></i>
-          <i class="devicon-vscode-plain-wordmark"></i>
+          <i className="devicon-jest-plain wobble-horizontal"></i>
+          <i className="devicon-jquery-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-markdown-original wobble-horizontal"></i>
+          <i className="devicon-mysql-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-mongodb-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-nodejs-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-npm-original-wordmark wobble-horizontal"></i>
+          <i className="devicon-react-original-wordmark wobble-horizontal"></i>
+          <i className="devicon-sass-original wobble-horizontal"></i>
+          <i className="devicon-webpack-plain-wordmark wobble-horizontal"></i>
+          <i className="devicon-vscode-plain-wordmark wobble-horizontal"></i>
         </Box>
       </Flex>
     </div>

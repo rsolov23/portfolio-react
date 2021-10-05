@@ -13,7 +13,8 @@
 #font {
   margin: 125px 0 75px 0;
 }
-#about {
+#about,
+.animation-text-wipe {
   font-family: "Shadows Into Light", cursive;
 }
 /* Clear floats after the columns */
@@ -105,4 +106,38 @@
 
 .polaroid-card:nth-of-type(4):hover {
   transform: scale(1.1) skewY(20deg) rotate(10deg) translate(-50px);
+}
+.animation-text-wipe {
+  opacity: 0;
+  -webkit-mask-image: linear-gradient(to left, #0000 38%, #000 40%);
+  -webkit-mask-size: 300%;
+}
+
+.animation-text-wipe.animate-in {
+  animation-name: text-wipe;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.anim-delay-1 {
+  animation-delay: 0.25s;
+}
+.anim-delay-2 {
+  animation-delay: 0.5s;
+}
+.anim-delay-3 {
+  animation-delay: 0.75s;
+}
+
+@keyframes text-wipe {
+  0% {
+    opacity: 1;
+    -webkit-mask-position: 100%;
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-mask-position: 0%;
+  }
 }

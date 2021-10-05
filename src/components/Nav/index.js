@@ -8,7 +8,7 @@ function Nav() {
       <div>
         <nav>
           <h2 class="brand">
-            <a href="/Header">
+            <a href="/">
               {/* <UseAnimations
                 animationKey="loading2"
                 size={56}

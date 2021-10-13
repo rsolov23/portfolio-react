@@ -90,7 +90,7 @@ function Header() {
           target="blank"
         >
           {" "}
-          <i className="fab fa-github-square fa-3x"></i>
+          <i className="fab fa-github-square fa-3x" id="github"></i>
         </a>
 
         <a
@@ -105,7 +105,7 @@ function Header() {
           style={{ padding: "15px" }}
           target="blank"
         >
-          <i class="fas fa-envelope-square fa-3x"></i>
+          <i class="fas fa-envelope-square fa-3x" id="email"></i>
         </a>
 
         <Container align="center">

@@ -23,7 +23,33 @@
 
 @keyframes linkedin-icon {
   100% {
-    background-color: #0077B5;
+    background-color: #0077b5;
+    color: white;
+  }
+}
+#github:hover {
+  transform: scale(1.1);
+  animation-name: github-icon;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes github-icon {
+  100% {
+    background-color: #5d3fd3;
+    color: white;
+  }
+}
+#email:hover {
+  transform: scale(1.1);
+  animation-name: email-icon;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes email-icon {
+  100% {
+    background-color: #097969;
     color: white;
   }
 }

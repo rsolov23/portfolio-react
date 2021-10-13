@@ -9,7 +9,7 @@
 
 <br/>
 
-![A screenshot of the web page](./readmepic.png)
+![A screenshot of the web page](./public/image/readmepic.png)
 
 ## **Table of Contents**
 
@@ -36,4 +36,4 @@ A React portfolio designed with 💙 to showcase my talent.💥
 ### _License_
 
 Copyright (c) 2021 Rachel Solov</br>
- [MIT License](https://github.com/rsolov23/portfolio-react/blob/main/LICENSE.txt)
+[MIT License](https://github.com/rsolov23/portfolio-react/blob/main/LICENSE.txt)

@@ -38,7 +38,7 @@ function Resume() {
           </a>
         </Flex>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

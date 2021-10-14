@@ -1,21 +1,13 @@
 import React from "react";
 import "./Nav.css";
-// import UseAnimations from "react-useanimations";
-// import loading2 from "react-useanimations/lib/loading2";
+
 function Nav() {
   return (
     <>
       <div>
         <nav>
           <h2 class="brand">
-            <a href="/">
-              {/* <UseAnimations
-                animationKey="loading2"
-                size={56}
-                style={{ padding: 100 }}
-              /> */}
-              RS
-            </a>
+            <a href="/">&lt;/&gt; | RS</a>
           </h2>
           <input type="checkbox" id="nav" />
           <label for="nav">

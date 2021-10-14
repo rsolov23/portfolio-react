@@ -23,7 +23,6 @@
 
 @keyframes linkedin-icon {
   100% {
-    background-color: #0077b5;
     color: white;
   }
 }
@@ -36,7 +35,6 @@
 
 @keyframes github-icon {
   100% {
-    background-color: #5d3fd3;
     color: white;
   }
 }
@@ -49,7 +47,6 @@
 
 @keyframes email-icon {
   100% {
-    background-color: #097969;
     color: white;
   }
 }

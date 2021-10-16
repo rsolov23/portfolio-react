@@ -6,6 +6,11 @@
   font-family: "Bree Serif", serif;
 }
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+span,
+#summary {
+  font-size: 15px;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -62,6 +67,7 @@
 }
 
 .back {
+  color: #000;
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,

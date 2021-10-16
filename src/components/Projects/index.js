@@ -25,17 +25,26 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Helping Hands</p>
+                    <span>React/MongoDb/GraphQL</span>
+                    {/* <p id="summary">
+                      An app that hopes to help people experiencing homelessness
+                    </p> */}
                   </div>
                 </div>
+
                 <div className="back">
                   <div className="inner">
+                    <p id="summary">
+                      An app to help people experiencing homelessness
+                    </p>
                     <p>
                       <a
                         href="https://github.com/r0yster/helping-hands"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i className="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -45,7 +54,7 @@ function Projects() {
                         target="blank"
                       >
                         <FaIcons.FaExternalLinkSquareAlt
-                          size={90}
+                          size={50}
                           color="#000"
                         />
                       </a>
@@ -64,17 +73,20 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Jot It</p>
+                    <span>Handlebars/Express/Mysql2</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">A note taking app</p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/Jot-It"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -83,7 +95,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -100,17 +112,23 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Gaminator</p>
+                    <span>JavaScript/Server-Side API</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">
+                      An app to aid in selecting a game geared towards your
+                      enjoyment
+                    </p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/gaminator"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -119,7 +137,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -136,17 +154,22 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Weather Dashboard</p>
+                    <span>HTML/CSS/Server-Side API</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">
+                      An app that gives up-to-date as well as five day forecast
+                    </p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/Rachel-s-Weather-Dashboard"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -155,7 +178,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -172,17 +195,22 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Budget Tracker</p>
+                    <span>Mongoose/IndexedDB</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">
+                      An app that helps to track your spending habits
+                    </p>
                     <p>
                       <a
-                        href="https://github.com/rsolov23/budget-tracker"
+                        href="https://github.com/rsolov23/Rachel-s-Budget-Tracker"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -191,7 +219,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -208,17 +236,20 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Social Network API</p>
+                    <span>NoSQL/MongoDB</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">Backend for social network</p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/Rachel-s-Social-Network-API"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -227,7 +258,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -244,17 +275,20 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>README Generator</p>
+                    <span>Inquirer/Node.js</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">Instantly generates a custom README.MD</p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/Rachel-s-Professional-README-Generator"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -263,7 +297,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>
@@ -280,17 +314,22 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Workday Scheduler</p>
+                    <span>Moment.js</span>
                   </div>
                 </div>
                 <div class="back">
                   <div class="inner">
+                    <p id="summary">
+                      A simple calendar app for scheduling your work day
+                    </p>
                     <p>
                       <a
                         href="https://github.com/rsolov23/Rachel-s-Workday-Scheduler"
                         target="blank"
+                        className="fa"
                       >
                         {" "}
-                        <i class="devicon-github-original"></i>
+                        <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
@@ -299,7 +338,7 @@ function Projects() {
                         className="fa"
                         target="blank"
                       >
-                        <FaIcons.FaExternalLinkSquareAlt size={90} />
+                        <FaIcons.FaExternalLinkSquareAlt size={50} />
                       </a>
                     </p>
                   </div>

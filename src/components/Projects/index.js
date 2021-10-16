@@ -25,10 +25,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Helping Hands</p>
-                    <span>React/MongoDb/GraphQL</span>
-                    {/* <p id="summary">
-                      An app that hopes to help people experiencing homelessness
-                    </p> */}
+                    <span id="span">React/MongoDb/GraphQL</span>
                   </div>
                 </div>
 
@@ -73,7 +70,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Jot It</p>
-                    <span>Handlebars/Express/Mysql2</span>
+                    <span id="span">Handlebars/Express/Mysql2</span>
                   </div>
                 </div>
                 <div class="back">
@@ -112,7 +109,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Gaminator</p>
-                    <span>JavaScript/Server-Side API</span>
+                    <span id="span">JavaScript/Server-Side API</span>
                   </div>
                 </div>
                 <div class="back">
@@ -154,7 +151,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Weather Dashboard</p>
-                    <span>HTML/CSS/Server-Side API</span>
+                    <span id="span">HTML/CSS/Server-Side API</span>
                   </div>
                 </div>
                 <div class="back">
@@ -195,7 +192,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Budget Tracker</p>
-                    <span>Mongoose/IndexedDB</span>
+                    <span id="span">Mongoose/IndexedDB</span>
                   </div>
                 </div>
                 <div class="back">
@@ -236,7 +233,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Social Network API</p>
-                    <span>NoSQL/MongoDB</span>
+                    <span id="span">NoSQL/MongoDB</span>
                   </div>
                 </div>
                 <div class="back">
@@ -275,7 +272,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>README Generator</p>
-                    <span>Inquirer/Node.js</span>
+                    <span id="span">Inquirer/Node.js</span>
                   </div>
                 </div>
                 <div class="back">
@@ -314,7 +311,7 @@ function Projects() {
                 >
                   <div class="inner">
                     <p>Workday Scheduler</p>
-                    <span>Moment.js</span>
+                    <span id="span">Moment.js</span>
                   </div>
                 </div>
                 <div class="back">

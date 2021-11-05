@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./project.css";
 import help from "../images/help.png";
 import jotIt from "../images/jotit.png";
@@ -9,47 +9,128 @@ import social from "../images/socialapi.png";
 import readme from "../images/readme.png";
 import work from "../images/work.png";
 import * as FaIcons from "react-icons/fa";
-function Projects() {
-  {
+
+export default class Projects extends Component {
+  state = {
+    projectInfo: [
+      {
+        projectInfo: "",
+
+        title: "Helping Hands",
+        img: help,
+        skills: "React/MongoDb/GraphQL",
+        summary: "An app to help people experiencing homelessness",
+        github: "https://github.com/r0yster/helping-hands",
+        deployed: "https://helping-hands-deux.herokuapp.com/",
+      },
+
+      {
+        projectInfo: "",
+
+        title: "Jot It",
+        img: jotIt,
+        skills: "Handlebars/Express/Mysql2",
+        summary: "A note taking app",
+        github: "https://github.com/rsolov23/Jot-It",
+        deployed: "https://jotitgood.herokuapp.com/",
+      },
+      {
+        projectInfo: "",
+
+        title: "Gaminator",
+        img: game,
+        skills: "JavaScript/Server-Side API",
+        summary:
+          "An app to aid in selecting a game geared towards your enjoyment",
+        github: "https://github.com/rsolov23/gaminator",
+        deployed: "https://lexcraw4d.github.io/Gaminator/",
+      },
+      {
+        projectInfo: "",
+
+        title: "Weather Dashboard",
+        img: weather,
+        skills: "HTML/CSS/Server-Side API",
+        summary: " An app that gives up-to-date as well as five day forecast",
+        github: "https://github.com/rsolov23/Rachel-s-Weather-Dashboard",
+        deployed: "https://rsolov23.github.io/Rachel-s-Weather-Dashboard/",
+      },
+      {
+        projectInfo: "",
+
+        title: "Budget Tracker",
+        img: budget,
+        skills: "Mongoose/IndexedDB",
+        summary: "An app that helps to track your spending habits",
+        github: "https://github.com/rsolov23/Rachel-s-Budget-Tracker",
+        deployed: "https://vast-tundra-00537.herokuapp.com/",
+      },
+      {
+        projectInfo: "",
+
+        title: "Social Network API",
+        img: social,
+        skills: "NoSQL/MongoDB",
+        summary: "Backend for social network",
+        github: "https://github.com/rsolov23/Rachel-s-Social-Network-API",
+        deployed:
+          "https://drive.google.com/file/d/1-VtIBn1Yk43UaccVVerqYpSW9f2crDR1/view",
+      },
+      {
+        projectInfo: "",
+
+        title: "README Generator",
+        img: readme,
+        skills: "Inquirer/Node.js",
+        summary: "Instantly generates a custom README.MD",
+        github:
+          "https://github.com/rsolov23/Rachel-s-Professional-README-Generator",
+        deployed:
+          "https://drive.google.com/file/d/19fMHNmmm4aqq4fI0AQmLApEhf7OuMRjx/view",
+      },
+      {
+        projectInfo: "",
+
+        title: "Workday Scheduler",
+        img: work,
+        skills: "Moment.js",
+        summary: "A simple calendar app for scheduling your work day",
+        github: "https://github.com/rsolov23/Rachel-s-Workday-Scheduler",
+        deployed: "https://rsolov23.github.io/Rachel-s-Workday-Scheduler/",
+      },
+    ],
+  };
+  render() {
     return (
-      <div>
-        <div class="wrapper" style={{ marginTop: "5rem" }}>
-          <div class="cols">
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
+      <div className="wrapper" style={{ marginTop: "5rem" }}>
+        <div className="cols">
+          {this.state.projectInfo.map((item) => (
+            <div className="col" onTouchStart="this.classList.toggle('hover');">
+              <div className="container">
                 <div
-                  class="front"
+                  className="front"
                   style={{
-                    backgroundImage: `url(${help})`,
+                    backgroundImage: `url(${item.img})`,
                   }}
                 >
-                  <div class="inner">
-                    <p>Helping Hands</p>
-                    <span id="span">React/MongoDb/GraphQL</span>
+                  {/* {item.img} */}
+                  <div className="inner">
+                    <p>{item.title}</p>
+                    <span id="span">{item.skills}</span>
                   </div>
                 </div>
 
                 <div className="back">
                   <div className="inner">
-                    <p id="summary">
-                      An app to help people experiencing homelessness
-                    </p>
+                    <p id="summary">{item.summary}</p>
                     <p>
-                      <a
-                        href="https://github.com/r0yster/helping-hands"
-                        target="blank"
-                        className="fa"
-                      >
+                      <a href={item.github} target="blank" className="fa">
                         {" "}
                         <FaIcons.FaGithubSquare size={50} color="#000" />
                       </a>
                     </p>
                     <p>
-                      <a
-                        href="https://helping-hands-deux.herokuapp.com/"
-                        className="fa"
-                        target="blank"
-                      >
+                      <a href={item.deploy} className="fa" target="blank">
                         <FaIcons.FaExternalLinkSquareAlt
                           size={50}
                           color="#000"
@@ -60,292 +141,9 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${jotIt})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Jot It</p>
-                    <span id="span">Handlebars/Express/Mysql2</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">A note taking app</p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Jot-It"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://jotitgood.herokuapp.com/"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${game})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Gaminator</p>
-                    <span id="span">JavaScript/Server-Side API</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">
-                      An app to aid in selecting a game geared towards your
-                      enjoyment
-                    </p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/gaminator"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://lexcraw4d.github.io/Gaminator/"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${weather})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Weather Dashboard</p>
-                    <span id="span">HTML/CSS/Server-Side API</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">
-                      An app that gives up-to-date as well as five day forecast
-                    </p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Rachel-s-Weather-Dashboard"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://rsolov23.github.io/Rachel-s-Weather-Dashboard/"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${budget})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Budget Tracker</p>
-                    <span id="span">Mongoose/IndexedDB</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">
-                      An app that helps to track your spending habits
-                    </p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Rachel-s-Budget-Tracker"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://vast-tundra-00537.herokuapp.com/"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${social})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Social Network API</p>
-                    <span id="span">NoSQL/MongoDB</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">Backend for social network</p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Rachel-s-Social-Network-API"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="ttps://drive.google.com/file/d/1-VtIBn1Yk43UaccVVerqYpSW9f2crDR1/view"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${readme})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>README Generator</p>
-                    <span id="span">Inquirer/Node.js</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">Instantly generates a custom README.MD</p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Rachel-s-Professional-README-Generator"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://drive.google.com/file/d/19fMHNmmm4aqq4fI0AQmLApEhf7OuMRjx/view"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <div class="container">
-                <div
-                  class="front"
-                  style={{
-                    backgroundImage: `url(${work})`,
-                  }}
-                >
-                  <div class="inner">
-                    <p>Workday Scheduler</p>
-                    <span id="span">Moment.js</span>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="inner">
-                    <p id="summary">
-                      A simple calendar app for scheduling your work day
-                    </p>
-                    <p>
-                      <a
-                        href="https://github.com/rsolov23/Rachel-s-Workday-Scheduler"
-                        target="blank"
-                        className="fa"
-                      >
-                        {" "}
-                        <FaIcons.FaGithubSquare size={50} color="#000" />
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="https://rsolov23.github.io/Rachel-s-Workday-Scheduler/"
-                        className="fa"
-                        target="blank"
-                      >
-                        <FaIcons.FaExternalLinkSquareAlt size={50} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     );
   }
 }
-export default Projects;

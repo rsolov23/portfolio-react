@@ -1,11 +1,11 @@
 import "./index.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Nav from "./components/Nav/index";
-import Header from "./components/Header/index";
-import About from "./components/About/index";
-import Projects from "./components/Projects/index";
-import Skills from "./components/Skills/index";
-import Resume from "./components/Resume/index";
+import Nav from "./components/Nav/Nav";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills/Skills";
+import Resume from "./components/Resume/Resume";
 import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {

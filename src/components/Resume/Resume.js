@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Text } from "@chakra-ui/layout";
 import "./Resume.css";
-import Footer from "../Footer";
+import Footer from "../Footer/Footer";
 function Resume() {
   return (
     <>

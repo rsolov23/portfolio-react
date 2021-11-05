@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "@chakra-ui/layout";
-import About from "../About";
+import About from "../About/About";
 import "./Header.css";
 
 function Header() {

@@ -130,7 +130,7 @@ export default class Projects extends Component {
                       </a>
                     </p>
                     <p>
-                      <a href={item.deploy} className="fa" target="blank">
+                      <a href={item.deployed} className="fa" target="blank">
                         <FaIcons.FaExternalLinkSquareAlt
                           size={50}
                           color="#000"
